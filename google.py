@@ -1,7 +1,7 @@
 import webbrowser
 import sys
 
-url = 'http://www.google.com/search?q='
+url = "http://www.google.com/search?q="
 
 # MacOS
 #chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
@@ -12,7 +12,13 @@ url = 'http://www.google.com/search?q='
 # Linux
 chrome_path = '/usr/bin/firefox %s'
 
-def create_querr
-print(sys.argv[1:])
+def create_querry():
+    querry = sys.argv[1:]
+    return ' '.join(querry)
 
-webbrowser.get(chrome_path).open(url)
+def create_url():
+    final_url= url + create_querry()    
+    webbrowser.get(chrome_path).open(final_url)
+
+create_url()    
+
