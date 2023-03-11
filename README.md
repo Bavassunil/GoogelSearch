@@ -12,7 +12,7 @@ Access a text file from anywhere in terminal
 ```bash
 nano ~/.bashrc 
 ```
-![carbon](https://user-images.githubusercontent.com/73731461/224477775-fa5fc671-f316-46f1-8766-11aa396c3446.png)
+![carbon (1)](https://user-images.githubusercontent.com/73731461/224477834-797bcdba-445a-4d07-83d7-526da8b5d6a2.png)
 
 ```bash
 source ~/.bashrc 
