@@ -12,8 +12,12 @@ Access a text file from anywhere in terminal
 ```bash
 nano ~/.bashrc 
 ```
-![carbon (1) (1)](https://user-images.githubusercontent.com/73731461/224477983-51e6de58-252a-4acd-b06e-1453d149ed3d.png)
+```python
+alias s='python3 ~/code/google.py'
 
+
+
+```
 
 ```bash
 source ~/.bashrc 
